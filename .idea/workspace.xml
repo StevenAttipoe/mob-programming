@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34d82be3-2b7f-497f-88e3-4273e4179361" name="Changes" comment="second working version">
-      <change beforePath="$PROJECT_DIR$/src/test/java/PanagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PanagramTest.java" afterDir="false" />
+    <list default="true" id="34d82be3-2b7f-497f-88e3-4273e4179361" name="Changes" comment="third working version">
+      <change afterPath="$PROJECT_DIR$/src/test/java/checkPanagramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PanagramCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PanagramCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -38,59 +41,67 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.PanagramTest">
-    <configuration name="PanagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.checkPanagramTest">
+    <configuration name="checkPanagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobProgramming" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PanagramTest" />
+      <option name="MAIN_CLASS_NAME" value="checkPanagramTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PanagramTest.alphabetFrequencyIsNotPanagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="checkPanagramTest.alphabetCaseIsPanagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobProgramming" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PanagramTest" />
-      <option name="METHOD_NAME" value="alphabetFrequencyIsNotPanagram" />
+      <option name="MAIN_CLASS_NAME" value="checkPanagramTest" />
+      <option name="METHOD_NAME" value="alphabetCaseIsPanagram" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PanagramTest.alphabetMixedIsNotPanagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="checkPanagramTest.alphabetIsDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobProgramming" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PanagramTest" />
-      <option name="METHOD_NAME" value="alphabetMixedIsNotPanagram" />
+      <option name="MAIN_CLASS_NAME" value="checkPanagramTest" />
+      <option name="METHOD_NAME" value="alphabetIsDuplicate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PanagramTest.alphabetWithSpacesIsNotPanagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="checkPanagramTest.alphabetIsNotPanagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobProgramming" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PanagramTest" />
-      <option name="METHOD_NAME" value="alphabetWithSpacesIsNotPanagram" />
+      <option name="MAIN_CLASS_NAME" value="checkPanagramTest" />
+      <option name="METHOD_NAME" value="alphabetIsNotPanagram" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PanagramTest.alphabetWithSpacesIsPanagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="checkPanagramTest.alphabetIsPanagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobProgramming" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PanagramTest" />
-      <option name="METHOD_NAME" value="alphabetWithSpacesIsPanagram" />
+      <option name="MAIN_CLASS_NAME" value="checkPanagramTest" />
+      <option name="METHOD_NAME" value="alphabetIsPanagram" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PanagramTest" />
-        <item itemvalue="JUnit.PanagramTest.alphabetMixedIsNotPanagram" />
-        <item itemvalue="JUnit.PanagramTest.alphabetFrequencyIsNotPanagram" />
-        <item itemvalue="JUnit.PanagramTest.alphabetWithSpacesIsNotPanagram" />
-        <item itemvalue="JUnit.PanagramTest.alphabetWithSpacesIsPanagram" />
+        <item itemvalue="JUnit.checkPanagramTest" />
+        <item itemvalue="JUnit.checkPanagramTest.alphabetCaseIsPanagram" />
+        <item itemvalue="JUnit.checkPanagramTest.alphabetIsNotPanagram" />
+        <item itemvalue="JUnit.checkPanagramTest.alphabetIsDuplicate" />
+        <item itemvalue="JUnit.checkPanagramTest.alphabetIsPanagram" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657107007149</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third working version">
+      <created>1657107328351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657107328351</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +164,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first working version" />
     <MESSAGE value="second working version" />
-    <option name="LAST_COMMIT_MESSAGE" value="second working version" />
+    <MESSAGE value="third working version" />
+    <option name="LAST_COMMIT_MESSAGE" value="third working version" />
   </component>
 </project>
