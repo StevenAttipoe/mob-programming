@@ -1,19 +1,18 @@
 import java.util.HashSet;
 
 public class PanagramCheck {
-    public static boolean panagramCheck(String panagram) {
-        if(panagram.isEmpty() || panagram.length() < 26){
-            return false;
-        }
+    public static boolean isPanagram(String sentence) {
 
-        HashSet<Character> set = new HashSet<>();
-        for(int i=0;i<panagram.length();i++){
-            if(Character.isAlphabetic(panagram.charAt(i))){
-                set.add(Character.toLowerCase(panagram.charAt(i)));
+        HashSet<Character> letters = new HashSet<>();
+
+        for (char letter: sentence.toCharArray()) {
+            if (Character.isAlphabetic(letter)) {
+                letters.add(Character.toLowerCase(letter));
             }
+
         }
 
-        return set.size() == 26;
+        return letters.size() == 26;
 
     }
 }

@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34d82be3-2b7f-497f-88e3-4273e4179361" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PanagramCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PanagramTest.java" afterDir="false" />
+    <list default="true" id="34d82be3-2b7f-497f-88e3-4273e4179361" name="Changes" comment="first working version">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PanagramCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PanagramCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PanagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PanagramTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,7 +48,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PanagramTest.alphabetMixedIsNotPanagram">
+  <component name="RunManager" selected="JUnit.PanagramTest">
     <configuration name="PanagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobProgramming" />
       <option name="PACKAGE_NAME" value="" />
@@ -105,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PanagramTest" />
         <item itemvalue="JUnit.PanagramTest.alphabetMixedIsNotPanagram" />
         <item itemvalue="JUnit.PanagramTest.alphabetFrequencyIsNotPanagram" />
         <item itemvalue="JUnit.PanagramTest.alphabetWithSpacesIsNotPanagram" />
         <item itemvalue="JUnit.PanagramTest.alphabetWithSpacesIsPanagram" />
-        <item itemvalue="JUnit.PanagramTest" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +117,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657100383678</updated>
     </task>
+    <task id="LOCAL-00001" summary="first working version">
+      <created>1657106358938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657106358938</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first working version" />
+    <option name="LAST_COMMIT_MESSAGE" value="first working version" />
   </component>
 </project>
