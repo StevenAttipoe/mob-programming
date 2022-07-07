@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34d82be3-2b7f-497f-88e3-4273e4179361" name="Changes" comment="implemented a new method that accounts for duplicated letters in a panagram">
+    <list default="true" id="34d82be3-2b7f-497f-88e3-4273e4179361" name="Changes" comment="code refactored">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PanagramCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PanagramCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/User/Documents/Internship/CareerPlanner/Backend/Career-Planner"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657109547097</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="code refactored">
+      <created>1657110815622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657110815622</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +179,7 @@
     <MESSAGE value="third working version" />
     <MESSAGE value="fourth working version" />
     <MESSAGE value="implemented a new method that accounts for duplicated letters in a panagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented a new method that accounts for duplicated letters in a panagram" />
+    <MESSAGE value="code refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="code refactored" />
   </component>
 </project>
